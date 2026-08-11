@@ -1,0 +1,26 @@
+# 依賴套件
+node_modules/
+
+# 環境變數 (含有 MongoDB 連接字串、JWT 密鑰等敏感資訊)
+.env
+.env.production
+
+# 日誌檔案
+logs/
+*.log
+
+# 測試報告
+coverage/
+
+# 臨時檔案
+temp/
+tmp/
+
+# 作業系統檔案
+.DS_Store
+Thumbs.db
+
+# 編輯器檔案
+.vscode/
+.idea/
+*.swp
